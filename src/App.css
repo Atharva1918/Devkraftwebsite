@@ -1,0 +1,259 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  list-style: none;
+  background-color: black;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1{
+  background-color: black;
+  color: rgb(255, 111, 0);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 15cm;
+  padding:30px;
+  padding-bottom: 10PX;
+  text-align: left;
+  font-weight: 200;
+  margin: 0px;
+  bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+
+}
+header h1{
+  font-size: xx-large;
+}
+nav { 
+  background-color: black;
+  color: white;
+  padding: 30px;
+  overflow: hidden;
+  margin-left: 800px;
+  font-size: 25px;
+  margin-bottom: 20PX;
+  display: flex;
+ 
+ 
+
+
+} 
+@media screen and( max-width:700px)  {
+  nav{flex-direction: column;
+  text-align: right;
+  margin-left: 10px;
+}
+.menu{float: right;}
+
+  
+}
+
+
+.menu{
+  margin: 20px;
+  display: block;
+  text-decoration: none;
+  float: left;
+  color: white;
+  text-align: right;
+ 
+
+
+}
+.menu:hover{
+  border-radius: 5px;
+  border: 5px;
+ 
+  color: white;
+  background-color : rgb(255, 111, 0) ;
+  outline: 5PX solid white;
+
+  
+  
+
+ 
+ 
+  
+}
+h2{
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+  padding: 20px;
+  font-family :'Times New Roman', Times, serif;
+  margin:100px;
+  
+
+  
+  
+  
+
+  
+
+
+}
+.typed-out{
+
+  color: white;
+  animation: example 4s infinite;
+  animation-iteration-count: infinite;
+   ;
+  
+ 
+}
+@keyframes example{
+  0%{color: white;}
+  25%{color: orangered;}
+  50%{color: orangered;}
+  100%{color: white;}
+}
+
+.name{
+  color: orangered;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 20px;
+}
+p{
+  color: white;
+  padding: 30px;
+  padding-left: 50px;
+  margin: 30px;
+  text-align: left;
+  font-size: 20px;
+  margin-left: 80px;
+  
+ 
+
+
+}
+ b{
+  color: orangered;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 25px;
+  margin: 5PX;
+}
+
+ #box{
+   float: right;
+  margin: auto;
+  width: 50%;
+  height: 500PX;
+
+
+}
+ @media screen and (max-width:600) {
+   #box{
+     width:50%;
+     height: auto;
+   }
+   
+ }  
+
+section{
+   color: white;
+  padding: 50px;
+  padding-top:100px ;
+  text-align: center;
+  word-spacing: 10px;
+  font-size:25px;
+  margin-top: 900px;
+ 
+  
+ 
+}
+#links{
+  text-decoration: none;
+  
+  ;
+  
+  padding: 10px 15px;
+  border-radius: 5px;
+  float:none;
+  
+}
+#links:hover{
+  
+  outline:5px solid darkgrey;
+
+}
+#links a i{
+  margin: 5px;
+}
+.yt{
+  color: #FF0000;
+}
+.ld{
+  color:  #006192;
+}
+.ig{
+  color: #C13584;
+}
+.fb{
+  color: 	#4267B2;
+}
+.tw{
+  color: #1D9BF0;
+}
+div{
+  text-align: right;
+  float: right;
+  margin-top: 50px;
+
+}
+#team{
+  float: left;
+ margin: auto;
+ margin-right: 50px;
+ padding: 5px;
+ width: 600PX;
+ height: 400PX;
+
+
+}
+@media  screen and (max-width:600px) {
+  div{
+    width: 50%;
+    font-size: 10px;
+  }
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
